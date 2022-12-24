@@ -20,7 +20,7 @@
       <%= pluralize(@post.comments.count, 'Comentário') %>
 
       <% if @post.comments.none? %>
-        <span class='badge badge-success'>Seja o primeiro a comentar!</span>
+        <span class="badge text-bg-success">Seja o primeiro a comentar!</span>
       <% end %>
     </h4>
   </div>
@@ -52,6 +52,7 @@
         </div>
 
         <div class='col text-right'>
+          <%# <em data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="<%= l comment.created_at, format: :long %>
           <em data-toggle='tooltip' data-placement='top' title='<%= l comment.created_at, format: :long %>'>
             <%= time_ago_in_words comment.created_at %> atrás
           </em>
