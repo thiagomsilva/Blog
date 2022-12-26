@@ -12,6 +12,8 @@
 
 ActiveSupport::Inflector.inflections(:'pt-BR') do |inflect|
   inflect.plural 'Comentário', 'Comentários'
+  inflect.plural 'resultado encontrado', 'resultados encontrados'
+  # inflect.plural 'encontrado', 'encontrados'
 end
 
 # These inflection rules are supported but not enabled by default:
