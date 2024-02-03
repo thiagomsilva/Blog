@@ -6,16 +6,16 @@
 import Rails from "@rails/ujs"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
-import "bootstrap/dist/js/bootstrap.bundle";
+import { Tooltip } from "bootstrap/dist/js/bootstrap.bundle";
 
 import "../src/application.css";
 
 Rails.start()
 ActiveStorage.start()
 
-// const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-// const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
-$(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-  });
+// document.addEventListener("DOMContentLoaded", () => {
+//   const tooltipTriggerList = document.querySelectorAll(
+//     '[data-toggle="tooltip"]'
+//   )
+//   [...tooltipTriggerList].map((el) => new Tooltip(el))
+// })
