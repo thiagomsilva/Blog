@@ -2,6 +2,10 @@
 
 Projeto de um blog utilizando bootstrap
 
+## Aplicação disponível em produção:
+
+https://blogprod.onrender.com
+
 ## Tecnologias
 
 - Ruby 3.1.2
